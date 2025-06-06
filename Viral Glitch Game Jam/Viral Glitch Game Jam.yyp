@@ -1,0 +1,37 @@
+{
+  "$GMProject":"v1",
+  "%Name":"Viral Glitch Game Jam",
+  "AudioGroups":[
+    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+  "configs":{
+    "children":[],
+    "name":"Default",
+  },
+  "defaultScriptType":1,
+  "Folders":[
+    {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2024.13.1.193",
+  },
+  "name":"Viral Glitch Game Jam",
+  "resources":[
+    {"id":{"name":"c_launch","path":"scripts/c_launch/c_launch.yy",},},
+    {"id":{"name":"s_fontMonohead","path":"sprites/s_fontMonohead/s_fontMonohead.yy",},},
+    {"id":{"name":"s_fontOcculant","path":"sprites/s_fontOcculant/s_fontOcculant.yy",},},
+    {"id":{"name":"s_fontRathead","path":"sprites/s_fontRathead/s_fontRathead.yy",},},
+    {"id":{"name":"s_palette","path":"sprites/s_palette/s_palette.yy",},},
+  ],
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[],
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+}
