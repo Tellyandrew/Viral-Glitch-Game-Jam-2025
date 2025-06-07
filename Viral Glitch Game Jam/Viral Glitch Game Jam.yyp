@@ -22,6 +22,7 @@
   "name":"Viral Glitch Game Jam",
   "resources":[
     {"id":{"name":"c_launch","path":"scripts/c_launch/c_launch.yy",},},
+    {"id":{"name":"s_experiment","path":"sprites/s_experiment/s_experiment.yy",},},
     {"id":{"name":"s_fontMonohead","path":"sprites/s_fontMonohead/s_fontMonohead.yy",},},
     {"id":{"name":"s_fontOcculant","path":"sprites/s_fontOcculant/s_fontOcculant.yy",},},
     {"id":{"name":"s_fontRathead","path":"sprites/s_fontRathead/s_fontRathead.yy",},},
