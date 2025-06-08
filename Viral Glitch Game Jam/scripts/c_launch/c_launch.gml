@@ -12,3 +12,22 @@ draw_set_font(global.FONT_OCCULANT);
 
 #macro SPECIAL_CHAR_BLOCK_DELETE chr(0x7F)
 #macro SPECIAL_CHAR_INPUT_PADDING chr(0xF0000)
+
+/// Game
+global.POSSIBLE_PORTS = [
+	[0, 1],
+	[0, 2],
+	[0, 3],
+	[1, 2],
+	[1, 3],
+	[2, 3],
+	//[0, 1, 2],
+	//[0, 1, 3],
+	//[0, 2, 3],
+	//[1, 2, 3],
+	//[0, 1, 2, 3],
+];
+
+function array_choose(_array, _arrayLength = array_length(_array)){
+	return _array[irandom(_arrayLength - 1)];
+}
