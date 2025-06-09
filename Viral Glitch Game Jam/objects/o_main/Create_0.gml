@@ -1,4 +1,6 @@
 global.currentFrame = 0;
+global.displayCentre = vec2(75, 68);
+
 
 crawl = undefined;
 wireSurface = [-1, -1, -1, -1];
@@ -64,6 +66,7 @@ terrain = [{
 	shape : TERRAIN_SHAPE.SQUARE,
 	x : 0,
 	y : 0,
+	z : 0,
 	length : 18,
 }];
 
@@ -71,6 +74,7 @@ terrain = [{
 player = {
 	x : 0,
 	y : 0,
+	z : 2,
 	radius : 3,
 	velocity : 0.5,
 };

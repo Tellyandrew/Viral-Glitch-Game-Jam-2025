@@ -25,6 +25,7 @@
     {"id":{"name":"o_particleEmitterTest","path":"objects/o_particleEmitterTest/o_particleEmitterTest.yy",},},
     {"id":{"name":"r_main","path":"rooms/r_main/r_main.yy",},},
     {"id":{"name":"c_launch","path":"scripts/c_launch/c_launch.yy",},},
+    {"id":{"name":"c_vectors","path":"scripts/c_vectors/c_vectors.yy",},},
     {"id":{"name":"a_marchingAnts","path":"shaders/a_marchingAnts/a_marchingAnts.yy",},},
     {"id":{"name":"s_experiment","path":"sprites/s_experiment/s_experiment.yy",},},
     {"id":{"name":"s_fontMonohead","path":"sprites/s_fontMonohead/s_fontMonohead.yy",},},
