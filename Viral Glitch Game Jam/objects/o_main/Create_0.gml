@@ -1,6 +1,8 @@
 global.currentFrame = 0;
 
-crawl = undefined
+crawl = undefined;
+wireSurface = [-1, -1, -1, -1];
+debugging = true;
 
 nodeRows = 6;
 nodeColumns = 4;
@@ -53,3 +55,22 @@ for (var i = 0; i < nodeRows; i++){
 		}
 	}
 }
+
+enum TERRAIN_SHAPE{
+	SQUARE,
+}
+
+terrain = [{
+	shape : TERRAIN_SHAPE.SQUARE,
+	x : 0,
+	y : 0,
+	length : 18,
+}];
+
+//@TODO: Probably should make this and enemies into objects/instances instead of buried in o_main
+player = {
+	x : 0,
+	y : 0,
+	radius : 3,
+	velocity : 0.5,
+};
