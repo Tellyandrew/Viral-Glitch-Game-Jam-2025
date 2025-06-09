@@ -33,6 +33,8 @@ if debugging{
 	var _playerDisplay = vec2_display_from_worldspace(player);
 	draw_circle_colour(_playerDisplay.x, _playerDisplay.y, 2, c_teal, c_teal, false);
 	draw_circle_colour(_playerFootDisplay.x, _playerFootDisplay.y, 2, c_teal, c_teal, false);
+	
+	draw_sprite(s_socketConnector, 0, mouse_x, mouse_y);
 }else{
 	
 }

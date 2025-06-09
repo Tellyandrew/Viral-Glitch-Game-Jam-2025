@@ -2,7 +2,7 @@
   "$GMOperaGXOptions":"",
   "%Name":"Opera GX",
   "name":"Opera GX",
-  "option_operagx_display_cursor":true,
+  "option_operagx_display_cursor":false,
   "option_operagx_editUrl":"",
   "option_operagx_game_name":"Viral Glitch Game Jam",
   "option_operagx_guid":"",
