@@ -33,7 +33,7 @@ for (var j = 0; j < nodeColumns; j++){
 shader_set(a_marchingAnts);
 shader_set_uniform_f(shader_get_uniform(a_marchingAnts, "dimensions"), room_width, room_height);
 for (var j = 0; j < nodeColumns; j++){
-	shader_set_uniform_f(shader_get_uniform(a_marchingAnts, "time"), floor(global.currentFrame * 0.15) + 3);
+	shader_set_uniform_f(shader_get_uniform(a_marchingAnts, "time"), floor(global.currentFrame * 0.15) + 2*j);
 	shader_set_uniform_f(shader_get_uniform(a_marchingAnts, "anchor"), nodeSockets[0][j].displayX + j - 2, nodeSockets[0][j].displayY);
 	draw_surface(wireSurface[j], 0, 0);
 }
